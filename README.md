@@ -1,16 +1,16 @@
 # Listing Top 100 movies from Rotten Tomatoes
 
 ## Table of contents
-* [Summary]
-* [Installation]
-* [Setup]
+* Summary
+* Installation
+* Setup
 
 ## Summary
-* Extracting HTML data from [Rotten Tomatoes (Top 100 movies)] webpage
+* Extracting HTML data from Rotten Tomatoes (Top 100 movies) webpage
 * Downloading and saving the the webpage as HTML into your computer and knowing how to access them.
 * Using Requests, Pandas and BeautifulSoup libraries
-* Finding the location of datas in HTML using [BeautifulSoup]
-* Using [Pandas] to arrange the datas in table form showing the ranks, ratings, movies and number of watchers.
+* Finding the location of datas in HTML using BeautifulSoup
+* Using Pandas to arrange the datas in table form showing the ranks, ratings, movies and number of watchers.
 * link of webpage: https://www.rottentomatoes.com/top/bestofrt/
 
 
@@ -43,7 +43,7 @@
 
 `import bs4 as BeautifulSoup`
 
-* Finding the [class table] from HTML using beautifulsoup `table = soup.find('table',{'class':'table'})` 
+* Finding the class table from HTML using beautifulsoup `table = soup.find('table',{'class':'table'})` 
 
 * Storing the wanted data as an array eg. `movie_list=[]`
 
